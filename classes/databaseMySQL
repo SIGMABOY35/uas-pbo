@@ -1,0 +1,10 @@
+CREATE DATABASE apotek;
+
+USE apotek;
+
+CREATE TABLE obat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    harga DECIMAL(10, 2) NOT NULL,
+    stok INT NOT NULL
+);
